@@ -1,0 +1,44 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.parent{
+    display: flex;
+    width: 100%;
+    height:100%;
+    background-color: silver;
+    justify-content: space-around; 
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.child{
+    background-color: blue;
+    width: 30%;
+    height: 10%;
+    border: 1px solid black;
+}
+
+
+/* @media only screen and(max-width:500px){
+    .parent{
+        flex-direction:column-reverse;
+        align-items: flex-end;
+    }
+
+
+} */
+
+/* @media screen and (min-width: 400px) {
+    .parent{
+      flex-direction: column-reverse;
+    }
+  } */
+
+@media only screen and (max-width:480px){
+    .parent{
+        flex-direction: column-reverse;
+        background-color: rebeccapurple;
+    }
+}
+
